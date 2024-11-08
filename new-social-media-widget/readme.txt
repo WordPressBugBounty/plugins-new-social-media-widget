@@ -3,8 +3,8 @@ Contributors: awordpresslife, razipathhan, hanif0991, muhammadshahid, fkfaisalkh
 Donate link: https://paypal.me/awplife
 Tags: social media icons, social accounts, social profiles, profile widget, social icons, facebook, twitter, Insta,
 Requires at least: 3.0
-Tested up to: 6.6.1
-Stable tag: 1.2.4
+Tested up to: 6.6.2
+Stable tag: 1.2.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -198,6 +198,10 @@ https://wordpress.org/support/plugin/new-social-media-widget/
 3. Widget Design & Effect Settings
 
 == Changelog ==
+
+= 1.2.5 =
+* Bug Fix: Fixed,
+* Tested Upto New version 6.6.2
 
 = 1.2.4 =
 * Tested Upto New version 6.6.1
