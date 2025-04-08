@@ -1,14 +1,14 @@
 === Social Media Icons - Social Icons Widget ===
 Contributors: awordpresslife, razipathhan, hanif0991, muhammadshahid, fkfaisalkhan007, sharikkhan007, zishlife, FARAZFRANK
 Donate link: https://paypal.me/awplife
-Tags: social media icons, social accounts, social profiles, profile widget, social icons, facebook, twitter, Insta,
+Tags: social media icons, social accounts, social profiles, profile widget, social icons
 Requires at least: 3.0
-Tested up to: 6.7.1
-Stable tag: 1.2.6
+Tested up to: 6.7.2
+Stable tag: 1.2.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Social Media, Social share icon, social accounts, social profiles, Social Media Plugin with many Social Media Icons and Settings Like Size, Icon Styles, Responsive Configuration, Rotate Effects, Social Media Widget, Icon Animation, Highly Customizable.
+Powerful Social Media plugin for WordPress with customizable icons, sizes, styles, animations, responsive settings, rotate effects & widgets.
 
 == Description ==
 
@@ -198,6 +198,10 @@ https://wordpress.org/support/plugin/new-social-media-widget/
 3. Widget Design & Effect Settings
 
 == Changelog ==
+
+= 1.2.7 =
+* Bug Fix: Fixed,
+* Tested Upto New version 6.7.2
 
 = 1.2.6 =
 * Bug Fix: Fixed,
