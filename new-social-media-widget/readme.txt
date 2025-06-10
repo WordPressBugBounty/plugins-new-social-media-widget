@@ -3,8 +3,8 @@ Contributors: awordpresslife, razipathhan, hanif0991, muhammadshahid, fkfaisalkh
 Donate link: https://paypal.me/awplife
 Tags: social media icons, social accounts, social profiles, profile widget, social icons
 Requires at least: 3.0
-Tested up to: 6.7.2
-Stable tag: 1.2.7
+Tested up to: 6.8.1
+Stable tag: 1.2.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -130,58 +130,59 @@ That's it. You're ready to go!
 
 == Recommended Plugins ==
 
-The following are other recommended plugins by the author:
+== Recommended Plugins ==
 
-* [Portfolio Filter Gallery](https://wordpress.org/plugins/portfolio-filter-gallery/ "Best Portfolio Filter Gallery") - The Gallery Plugin to create awesome Portfolio Filter Gallery Plugin in minutes. 
+Enhance your WordPress site with these powerful plugins by the same author:
 
-**Buy Premium Plugin - <a href="https://awplife.com/wordpress-plugins/portfolio-filter-gallery-premium/">Click Here</a>**
+- **[Portfolio Filter Gallery](https://wordpress.org/plugins/portfolio-filter-gallery/)**  
+Create stunning portfolio galleries in minutes with this versatile filter gallery plugin.  
+**[Get Premium Version](https://awplife.com/wordpress-plugins/portfolio-filter-gallery-premium/)** – Unlock advanced features for more customization.
 
-* [Media Slider](https://wordpress.org/plugins/media-slider/ "Best Media Slider") - The Media Slider Plugin to create Media / Video Slider Gallery Plugin in minutes. 
+- **[Media Slider](https://wordpress.org/plugins/media-slider/)**  
+Build responsive media and video slider galleries effortlessly with this slider plugin.  
+**[Unlock Premium Version](https://awplife.com/wordpress-plugins/media-slider-premium/)** – Add more layouts and controls.
 
-**Buy Premium Plugin - <a href="https://awplife.com/wordpress-plugins/media-slider-premium/">Click Here</a>**
+- **[Weather Effect Plugin](https://wordpress.org/plugins/weather-effect/)**  
+Add engaging weather effects to your site with this easy-to-use WordPress plugin.  
+**[Buy Premium Version](https://awplife.com/wordpress-plugins/weather-effect-premium/)** – Access multiple effects and settings.
 
-* [Best Weather Effect Plugin](https://wordpress.org/plugins/weather-effect/ "Best Weather Effect Plugin") - Very Simple And Easy To Design Your Sites With Multiple Effects.
+- **[Grid Gallery Plugin](https://wordpress.org/plugins/new-grid-gallery/)**  
+Display images in a customizable grid gallery widget for pages, posts, or sidebars.  
+**[Upgrade Premium Version](https://awplife.com/wordpress-plugins/grid-gallery-premium/)** – Enhanced styling options.
 
-**Buy Premium Plugin - <a href="https://awplife.com/wordpress-plugins/weather-effect-premium/">Click Here</a>**
+- **[Image Gallery Plugin](https://wordpress.org/plugins/new-image-gallery/)**  
+Showcase images with a lightbox slider using this fast and simple image gallery plugin.  
+**[Get Premium Version](https://awplife.com/wordpress-plugins/image-gallery-premium/)** – More gallery layouts and effects.
 
-* [Best Grid Gallery Plugin](https://wordpress.org/plugins/new-grid-gallery/ "Best Grid Galley Plugin") - Easy Grid Gallery Widget - Displaying your image in Page & Post widget/sidebar area with very easy.Allows you to customize it to looking exactly what you want.
+- **[Photo Gallery Plugin](https://wordpress.org/plugins/new-photo-gallery/)**  
+Create photo, video, link, and map galleries in seconds with this WordPress gallery plugin.  
+**[Upgrade Premium Version](https://awplife.com/wordpress-plugins/photo-gallery-premium/)** – Advanced gallery features.
 
-**Buy Premium Plugin - <a href="https://awplife.com/wordpress-plugins/grid-gallery-premium/">Click Here</a>**
+- **[Responsive Slider Gallery](https://wordpress.org/plugins/responsive-slider-gallery/)**  
+Add fully responsive sliders to pages, posts, or widgets with this WordPress slider plugin.  
+**[Try Premium Version](https://awplife.com/wordpress-plugins/responsive-slider-gallery-premium/)** – More slider customization.
 
-* [Image Gallery Plugin](https://wordpress.org/plugins/new-image-gallery/ "Image Gallery Plugin") - Gallery Lightbox - Displays all gallery images into the lightbox slider in just a few seconds.
+- **[Contact Form Widget](https://wordpress.org/plugins/new-contact-form-widget/)**  
+Embed a simple contact form in your WordPress site using this shortcode plugin.  
+**[Upgrade To Premium Version](https://awplife.com/wordpress-plugins/contact-form-premium/)** – Advanced form options.
 
-**Buy Premium Plugin - <a href="https://awplife.com/wordpress-plugins/image-gallery-premium/">Click Here</a>**
+- **[Social Media Widget](https://wordpress.org/plugins/new-social-media-widget/)**  
+Display social media icons in your sidebar or widget areas with this WordPress plugin.  
+**[Get Premium Version](https://awplife.com/wordpress-plugins/social-media-widget-premium/)** – Enhanced social features.
 
-* [Photo Gallery Plugin](https://wordpress.org/plugins/new-photo-gallery/ "Image Gallery Plugin") - Displays all  Photo Gallery, Video Gallery, Link Gallery, Map Gallery into Wordpress in just a few seconds.
+- **[Slider Responsive Slideshow](https://wordpress.org/plugins/slider-responsive-slideshow/)**  
+Create lightweight, responsive slideshows with this powerful WordPress slider plugin.  
+**[Upgrade Premium Version](https://awplife.com/wordpress-plugins/slider-responsive-slideshow-premium/)** – More slideshow effects.
 
-**Buy Premium Plugin - <a href="https://awplife.com/wordpress-plugins/photo-gallery-premium/">Click Here</a>**
+- **[Video Gallery Plugin](https://wordpress.org/plugins/new-video-gallery/)**  
+Build responsive video galleries quickly with this WordPress video gallery plugin.  
+**[Try Premium Version](https://awplife.com/wordpress-plugins/video-gallery-premium/)** – Additional video features.
 
-* [Slider Plugin](https://wordpress.org/plugins/responsive-slider-gallery/ "Slider Plugin") - Fully Responsive Slider Gallery For Wordpress ,You can Show Slider Into Page/Post & Widget/Sidebar By Generate Shortcode.
+- **[Facebook Like Share Follow Button](https://wordpress.org/plugins/new-facebook-like-share-follow-button/)**  
+Add Facebook Like, Share, and Follow buttons to your WordPress pages, posts, or widgets.
 
-**Buy Premium Plugin - <a href="https://awplife.com/wordpress-plugins/responsive-slider-gallery-premium/">Click Here</a>**
-
-* [Contact Form](https://wordpress.org/plugins/new-contact-form-widget/ "Contact Form Plugin") - Contact Form Widget Shortcode Plugin For WordPress.
-
-**Buy Premium Plugin - <a href="https://awplife.com/wordpress-plugins/contact-form-premium/">Click Here</a>**
-
-* [Social Media Plugin](https://wordpress.org/plugins/new-social-media-widget/ "Social Media") - Display your Social Media Plugin into Widget/Sidebar in WordPress site with very easily.
-
-**Buy Premium Plugin - <a href="https://awplife.com/wordpress-plugins/social-media-widget-premium//">Click Here</a>**
-
-* [Best Responsive Slider Plugin](https://wordpress.org/plugins/slider-responsive-slideshow/ "Responsive Slider Plugin") - Fully Responsive Light Weight Easy Powerful WordPress Slider Slideshow Plugin.
-
-**Buy Premium Plugin - <a href="https://awplife.com/wordpress-plugins/slider-responsive-slideshow-premium//">Click Here</a>**
-
-* [Video Gallery Plugin](https://wordpress.org/plugins/new-video-gallery/ "Best Video Gallery Plugin") - The Best Responsive video gallery For Wordpress.
-
-**Buy Premium Plugin - <a href="https://awplife.com/wordpress-plugins/video-gallery-premium/">Click Here</a>**
-
-* [Facebook Like Share Follow Button](https://wordpress.org/plugins/new-facebook-like-share-follow-button/ "Facebook Like Share Follow Button") - Display your Facebook Like Share Follow Button Plugin into Page/Post & Widget/Sidebar in WordPress sites with very easily.
- 
-* [Google Plus Badge](https://wordpress.org/plugins/new-google-plus-badge/ "Google Plus Badge") - Google+ Badge & Profile Widget For Show Into Widget & sidebar
-
-* [Facebook Likebox Plugin](https://wordpress.org/plugins/facebook-likebox-widget-and-shortcode/ "Facebook Likebox Plugin") - Facebook Light Box Plugin For Wordpress 
- 
+- **[Facebook Likebox Widget](https://wordpress.org/plugins/facebook-likebox-widget-and-shortcode/)**  
+Embed a Facebook lightbox widget in your WordPress site for enhanced social engagement.
 
 == Frequently Asked Questions ==
 
@@ -198,6 +199,10 @@ https://wordpress.org/support/plugin/new-social-media-widget/
 3. Widget Design & Effect Settings
 
 == Changelog ==
+
+= 1.2.8 =
+* Bug Fix: Fixed,
+* Tested Upto New version 6.8.1
 
 = 1.2.7 =
 * Bug Fix: Fixed,
