@@ -4,7 +4,7 @@
 Plugin Name: New Social Media Widget
 Plugin URI:  http://awplife.com/
 Description: The Social Media Widget is a simple sidebar widget that allows users to input their social media website profile URLs and other subscription options to show an icon on the sidebar to that social media site and more that open up in a separate browser window.
-Version:     1.2.8
+Version:     1.2.9
 Author:      A WP Life
 Text Domain: new-social-media-widget
 Author URI:  http://awplife.com/
