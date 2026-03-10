@@ -1,0 +1,119 @@
+/* 
+   Social Media Widget - Minimal Grid System
+   Replaces the 146KB Bootstrap 3 CSS with just the essential grid classes used by the plugin.
+*/
+
+.social-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -10px;
+    /* Offset padding from columns */
+}
+
+/* Base column class applied to all icons */
+.social-wrap>div[class*="col-md-"] {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    /* margin-bottom: 20px;  Add bottom margin for spacing between rows */
+}
+
+/* 1 Column */
+.social-wrap>.col-md-12 {
+    width: 100%;
+}
+
+/* 2 Columns */
+.social-wrap>.col-md-6 {
+    width: 50%;
+}
+
+/* 3 Columns */
+.social-wrap>.col-md-4 {
+    width: 33.33333333%;
+}
+
+/* 4 Columns */
+.social-wrap>.col-md-3 {
+    width: 25%;
+}
+
+/* 6 Columns */
+.social-wrap>.col-md-2 {
+    width: 16.66666667%;
+}
+
+/* 12 Columns */
+.social-wrap>.col-md-1 {
+    width: 8.33333333%;
+}
+
+/* Responsive fallbacks for smaller screens */
+@media (max-width: 768px) {
+
+    /* Stack more on tablets */
+    .social-wrap>.col-md-2,
+    .social-wrap>.col-md-3 {
+        width: 33.33333333%;
+    }
+
+    .social-wrap>.col-md-4,
+    .social-wrap>.col-md-6 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Stack most on mobile */
+    .social-wrap>.col-md-2,
+    .social-wrap>.col-md-3,
+    .social-wrap>.col-md-4 {
+        width: 50%;
+    }
+
+    .social-wrap>.col-md-6 {
+        width: 100%;
+    }
+}
+
+/* Force column widths in backend preview (Gutenberg iframe/Widgets area) */
+.social-wrap.nsmw-admin-preview>.col-md-12 {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+.social-wrap.nsmw-admin-preview>.col-md-6 {
+    width: 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+}
+
+.social-wrap.nsmw-admin-preview>.col-md-4 {
+    width: 33.33333333% !important;
+    flex: 0 0 33.33333333% !important;
+    max-width: 33.33333333% !important;
+}
+
+.social-wrap.nsmw-admin-preview>.col-md-3 {
+    width: 25% !important;
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
+}
+
+.social-wrap.nsmw-admin-preview>.col-md-2 {
+    width: 16.66666667% !important;
+    flex: 0 0 16.66666667% !important;
+    max-width: 16.66666667% !important;
+}
+
+.social-wrap.nsmw-admin-preview>.col-md-1 {
+    width: 8.33333333% !important;
+    flex: 0 0 8.33333333% !important;
+    max-width: 8.33333333% !important;
+}

@@ -1,0 +1,282 @@
+/* Social Media Widget - Admin Widget Form Styles */
+
+/* Base Typography & Inputs */
+.nsmw-admin-wrapper {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    color: #1e1e1e;
+}
+
+.nsmw-admin-wrapper input[type="text"],
+.nsmw-admin-wrapper input[type="number"],
+.nsmw-admin-wrapper select {
+    width: 100%;
+    padding: 6px 8px;
+    border: 1px solid #757575;
+    border-radius: 2px;
+    box-shadow: none;
+    font-size: 13px;
+    line-height: normal;
+    min-height: 30px;
+    background-color: #fff;
+    transition: box-shadow .1s linear;
+}
+
+.nsmw-admin-wrapper input[type="text"]:focus,
+.nsmw-admin-wrapper input[type="number"]:focus,
+.nsmw-admin-wrapper select:focus {
+    border-color: var(--wp-admin-theme-color, #007cba);
+    box-shadow: 0 0 0 1px var(--wp-admin-theme-color, #007cba);
+    outline: 2px solid transparent;
+}
+
+.nsmw-admin-wrapper label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.nsmw-admin-wrapper p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+/* Accordion Toggle Styles (Gutenberg PanelBody style) */
+.nsmw-section-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    padding: 16px;
+    color: #1e1e1e;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 !important;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.nsmw-section-toggle:first-child {
+    border-top: none;
+}
+
+.nsmw-section-toggle:hover {
+    background: #f0f0f1;
+    color: #1e1e1e;
+}
+
+.nsmw-section-toggle:focus {
+    box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus, 1.5px) var(--wp-admin-theme-color, #007cba);
+    outline: 2px solid transparent;
+}
+
+.nsmw-section-toggle::after {
+    content: "\f140";
+    /* dashicons-arrow-down */
+    font-family: dashicons;
+    font-size: 20px;
+    color: #1e1e1e;
+    transition: transform 0.2s ease;
+}
+
+.nsmw-section-toggle.active {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.nsmw-section-toggle.active::after {
+    transform: rotate(180deg);
+}
+
+.nsmw-section-content {
+    background: #fff;
+    /*padding: 16px;*/
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Customization Wrapper */
+.sap_block {
+    background: transparent;
+    padding: 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+/* Override Customizer / Classic Widget inner padding to maximize space for grid */
+.widget-inside {
+    padding: 1px 0px 0px !important;
+}
+
+/* Responsive Grid for Social Links (handles both wide and narrow admin views) */
+.nsmw-social-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 5px;
+}
+
+.nsmw-social-links-grid p {
+    margin: 0;
+}
+
+.nsmw-social-links-grid label {
+    margin-bottom: 4px;
+    color: #1e1e1e;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.nsmw-social-links-grid label i {
+    margin-right: 6px;
+    color: #757575;
+    width: 14px;
+    text-align: center;
+}
+
+/* Layout Preview Flex Alignment */
+.nsmw-layout-previews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.nsmw-layout-previews>div {
+    flex: 1;
+    min-width: 80px;
+    max-width: 120px;
+}
+
+.nsmw-layout-previews label {
+    display: block;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 4px;
+}
+
+.nsmw-layout-previews input[type="radio"] {
+    margin-bottom: 8px;
+}
+
+.nsmw-layout-previews img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nsmw-layout-previews input[type="radio"]:checked+img {
+    border-color: var(--wp-admin-theme-color, #007cba);
+    box-shadow: 0 0 0 1px var(--wp-admin-theme-color, #007cba);
+}
+
+.nsmw-layout-previews img:hover {
+    border-color: #949494;
+}
+
+/* Selected Style Image (Legacy Support) */
+.select_style {
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+    border-radius: 2px;
+}
+
+.select_style:hover {
+    border-color: #949494;
+}
+
+/* Two Column Settings Grid */
+.nsmw-settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 16px;
+    align-items: end;
+}
+
+.nsmw-settings-grid p {
+    margin: 0;
+}
+
+.nsmw-settings-grid label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+/* Radio Button Group Settings */
+.nsmw-radio-group {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.nsmw-radio-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.nsmw-radio-option input[type="radio"] {
+    margin: 0 6px 0 0 !important;
+}
+
+/* Pro Features Promotion Section */
+.nsmw-pro-btn,
+.nsmw-pro-buy-btn {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 16px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    transition: all 0.2s ease !important;
+    border-radius: 4px !important;
+    cursor: pointer;
+    font-size: 13px !important;
+    height: auto !important;
+    line-height: 1 !important;
+}
+
+.nsmw-pro-btn:hover,
+.nsmw-pro-buy-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nsmw-pro-buy-btn {
+    background: #ff4d4d !important;
+    border-color: #ff3333 !important;
+    color: #fff !important;
+}
+
+.nsmw-pro-buy-btn:hover {
+    background: #ff3333 !important;
+}
+
+.nsmw-section-content ul {
+    margin: 15px 0 !important;
+}
+
+.nsmw-section-content li {
+    font-size: 13px;
+    color: #444;
+    display: flex;
+    align-items: center;
+}
+
+.nsmw-section-content li .dashicons {
+    margin-right: 8px;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}

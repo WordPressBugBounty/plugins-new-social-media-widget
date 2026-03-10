@@ -4,8 +4,8 @@ Donate link: https://paypal.me/awplife
 Tags: social media icon, social icons, profile links, sidebar widget, icon widget
 Requires at least: 5.0
 Tested up to: 6.9
-Stable tag: 1.3.0
-Requires PHP: 7.0
+Stable tag: 1.4.0
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,6 +18,10 @@ Need a simple way to display social media icon links on your site? This lightwei
 **View Premium Demo:** **[Social Media Icon Widget Premium](https://awplife.com/demo/social-media-widget-premium/)**
 **More About Pro:** **[Social Media Icon Widget Premium Features](https://awplife.com/wordpress-plugins/social-media-widget-wordpress-plugin/)**
 **Where To Buy:** **[Buy Social Media Icon Widget Premium](https://awplife.com/account/signup/social-media-widget-premium)**
+
+= NEW: Gutenberg Block Support =
+
+Enjoy a seamless editing experience with our native Gutenberg block! Simply search for the "Social Media Widget" block and customize your profiles directly within the WordPress page or post editor.
 
 = Video Tutorial =
 
@@ -53,24 +57,25 @@ You can adjust each social media icon color to match your brand, add hover effec
 * Hover color effects
 * Multiple icons per row
 * Sidebar and footer widget support
+* Gutenberg block support
+* Fast-loading dynamic inline CSS
 * Icon spacing controls
 * Custom CSS field
 * Mobile responsive design
-* Font Awesome icons
+* Lightweight SVG icons
 
 = Premium Features =
 
 Upgrade to unlock additional capabilities:
 
-* 30+ social media profiles
-* 60+ hover animation effects
-* 10+ transform/rotate effects
-* Two distinct effect types
-* Advanced color picker
+* 30+ Pro Social Networks
+* 3 Unique Stunning Layout Styles
+* Custom Background & Icon Color on Hover
+* 60+ Exciting Hover Animations (2D, Curls, Glow)
+* 10+ 3D Transform Rotations
+* Advanced color pickers
 * Multiple icon size options
-* Full widget customization
-* Hover color variations
-* Priority support
+* Priority Email & Forum Support
 
 = Recommended Plugins =
 
@@ -141,6 +146,10 @@ Embed a Facebook lightbox widget in your WordPress site for enhanced social enga
 
 Navigate to Appearance > Widgets in your dashboard. Find "Social Media Icon Widget" in the available widgets list and drag it to your sidebar or any widget area. Then add your profile links and save.
 
+= Can I use this widget in the WordPress Block Editor (Gutenberg)? =
+
+Yes! The plugin comes with native Gutenberg block support. You can simply search for the "Social Media Widget" block and customize your social icons directly within any page or post.
+
 = Can I change the icon colors? =
 
 Yes, the widget includes a color picker that lets you set custom colors for icons, backgrounds, and hover states. You can match the icons to your site's color scheme.
@@ -192,6 +201,14 @@ For questions or issues, post on the plugin support forum and our team will assi
 
 == Changelog ==
 
+= 1.4.0 =
+* Improved performance by switching to dynamic inline CSS (`wp_add_inline_style`) for frontend widget presentation.
+* Added support for Gutenberg blocks.
+* Updated standard default colors to better align with the widget's modern appearance.
+* Fixed prefixing issues for coding standards.
+* Improved security with proper output escaping and nonce verification.
+* Fixed escaping for CSS output and labels.
+
 = 1.3.0 =
 * Tested with version 6.9
 
@@ -212,6 +229,12 @@ For questions or issues, post on the plugin support forum and our team will assi
 * Tested with version 6.7.1
 
 == Upgrade Notice ==
+
+= 1.4.0 =
+Includes a performance refactoring for loading widget CSS, alongside several backend preview fixes. Please update.
+
+= 1.3.1 =
+Security fixes and performance improvements. Update recommended for all users.
 
 = 1.3.0 =
 Tested with latest version. Update recommended for compatibility.
