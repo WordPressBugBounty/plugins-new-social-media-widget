@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
     function initNsmwWidget(widget) {
         // Initialize color picker
-        widget.find('.div_bg_color, .div_bg_hover_color, .icon_color, .icon_hover_color').wpColorPicker({
+        widget.find('.div_bg_color, .icon_color').wpColorPicker({
             change: function (e, ui) {
                 $(e.target).val(ui.color.toString()).trigger('change');
             },
@@ -31,29 +31,6 @@ jQuery(document).ready(function ($) {
             e.preventDefault();
             $(this).closest('.nsmw-repeater-item').remove();
         });
-
-        // Handle Style Type changes
-        widget.find('.style_type').on('change', function () {
-            var style_type = widget.find('.style_type:checked').val();
-            var displaySettings = $(this).closest('.nsmw-display-settings');
-
-            displaySettings.find('.layout_default, .layout_style_one, .layout_style_two').removeClass('select_style');
-
-            if (style_type === 'default') {
-                displaySettings.find('.layout_default').addClass('select_style');
-                displaySettings.find('.effect_type, .effect_color').show();
-            } else if (style_type === 'style_one') {
-                displaySettings.find('.layout_style_one').addClass('select_style');
-                displaySettings.find('.effect_type').hide();
-                displaySettings.find('.effect_color').show();
-            } else if (style_type === 'style_two') {
-                displaySettings.find('.layout_style_two').addClass('select_style');
-                displaySettings.find('.effect_type, .effect_color').hide();
-            }
-        });
-
-        // Trigger initial state
-        widget.find('.style_type:checked').trigger('change');
 
         // Handle Effect Type changes
         widget.find('.nsmw-effect-type-select').on('change', function () {

@@ -3,7 +3,7 @@
 Plugin Name: New Social Media Widget
 Plugin URI: http://awplife.com/
 Description: The Social Media Widget is a simple sidebar widget that allows users to input their social media website profile URLs and other subscription options to show an icon on the sidebar to that social media site and more that open up in a separate browser window.
-Version: 1.4.0
+Version: 1.4.1
 Author: A WP Life
 Author URI: https://awplife.com/
 Text Domain: new-social-media-widget
@@ -134,7 +134,7 @@ if (!class_exists('NSMW_New_Social_Media_Free')) {
 			$is_admin_preview = is_admin() || (function_exists('wp_is_json_request') && wp_is_json_request()) || (defined('REST_REQUEST') && REST_REQUEST);
 
 			if ($is_admin_preview) {
-				echo '<style id="nsmw-inline-preview-' . esc_attr($nsmw_widget_id) . '">' . $custom_css . '</style>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+				echo '<style id="nsmw-inline-preview-' . esc_attr($nsmw_widget_id) . '">' . wp_strip_all_tags($custom_css) . '</style>';
 			} else {
 				wp_add_inline_style('nsmw-grid-css', $custom_css);
 			}
@@ -148,7 +148,7 @@ if (!class_exists('NSMW_New_Social_Media_Free')) {
 			if ($effect_type != "hover") {
 				$hover_effects = "";
 			}
-			$pos = get_option("social_media_icon_pos");
+			$pos = get_option("nsmw_social_media_icon_pos");
 
 			// Allowed social media keys for validation
 			$allowed_social_keys = array(
@@ -495,45 +495,16 @@ if (!class_exists('NSMW_New_Social_Media_Free')) {
 			// Social URLs — sanitize with esc_url_raw for safe storage
 			$url_fields = array(
 				'facebook',
-				'bluesky',
 				'x-twitter',
-				'google-plus',
-				'linkedin',
 				'instagram',
-				'pinterest',
-				'flickr',
-				'tumblr',
-				'dribbble',
-				'vine',
-				'yahoo',
-				'qq',
-				'reddit',
-				'vk',
-				'wordpress',
-				'stack-overflow',
-				'stumbleupon',
-				'lastfm',
-				'xing',
 				'youtube',
-				'soundcloud',
-				'digg',
-				'git',
-				'share-alt',
-				'snapchat',
+				'pinterest',
+				'linkedin',
+				'tumblr',
+				'flickr',
 				'vimeo',
-				'weixin',
-				'wikipedia-w',
-				'yelp',
-				'skype',
-				'medium',
 				'rss',
 				'envelope',
-				'twitch',
-				'telegram',
-				'discord',
-				'tiktok',
-				'threads',
-				'mastodon',
 				'whatsapp'
 			);
 			foreach ($url_fields as $field) {
@@ -554,10 +525,10 @@ if (!class_exists('NSMW_New_Social_Media_Free')) {
 			$instance['url_target'] = sanitize_text_field($new_instance['url_target']);
 
 			// Sanitize POST data before saving
-			if (isset($_POST['pos']) && is_array($_POST['pos'])) {
+			if (isset($_POST['pos']) && is_array($_POST['pos']) && current_user_can('edit_theme_options')) {
 				check_admin_referer('update-widget-' . $this->id_base); // Standard widget nonce check
 				$sanitized_pos = array_map('intval', $_POST['pos']);
-				update_option('social_media_icon_pos', $sanitized_pos);
+				update_option('nsmw_social_media_icon_pos', $sanitized_pos);
 			}
 			return $instance;
 		}
